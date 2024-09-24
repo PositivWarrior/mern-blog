@@ -80,7 +80,7 @@ export default function FooterComponent() {
 				<div className="w-full sm:flex sm:items-center sm:justify-between">
 					<Footer.Copyright
 						href="https://positivwarrior.github.io/Portfolio/"
-						by="Kacper Margol"
+						by="Kacper Margol "
 						year={new Date().getFullYear()}
 					/>
 					<div className="flex gap-6 sm:mt-2 mt-4 sm:justify-center">
