@@ -39,7 +39,7 @@ export default function DashPosts() {
 
 		try {
 			const res = await fetch(
-				`/api/post/getposts?userId=${currentUser}&startIndex=${startIndex}`,
+				`/api/post/getposts?userId=${currentUser._id}&startIndex=${startIndex}`,
 			);
 			const data = await res.json();
 
