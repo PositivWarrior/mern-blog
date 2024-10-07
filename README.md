@@ -74,7 +74,6 @@ Authentication Routes (/auth):
         Comment Schema (Comment):
             Fields: content, postId, userId, likes, numberOfLikes.
 
-
 6.  Protected Routes
     JWT Token Middleware: The verifyToken function is used to protect routes, ensuring that only authorized users can perform certain actions like modifying or deleting posts and comments.
 
@@ -106,4 +105,3 @@ Authentication Routes (/auth):
 
 9.  Testing
     Test API endpoints using Insomnia.
-    Front-end unit tests (if applicable) for React components using Jest.
